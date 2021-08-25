@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+.headline {
+    color: #272343;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.heading {
+    color: #272343;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p {
+    color: #2d334a;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #272343;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.nav-item:hover .nav-link {
+    color: #ffd803;
+    border-bottom:3px solid #272343;
+}
+
+.custom-toggler.navbar-toggler {
+        border-color: #272343;
+}
+        /* Setting the stroke to green using rgb values (0, 128, 0) */        
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(44, 42, 41, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.space-top {
+    margin-top: 5em;
+}
+
+.my-img {
+   border-right: 3px solid #272343;
+   border-bottom: 3px solid #272343;
+   padding: 10px;
+}
+
+.light-card {
+    background-color: #bae8e8;
+    padding: 1em;
+}
+
+.white-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dark-card {
+    background-color: #2d334a;
+    padding: 10px;
+    margin: 10px;
+    color: #fffffe;
+    font-family:'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.project-card {
+    background-color: #2d334a;
+    padding: 2px;
+    margin: 10px;
+    font-family:'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.inside-card {
+    border: 4px solid #ffd803;
+    margin: 10px;
+}
+
+p.skills {
+    color: #fffffe;
+    
+}
